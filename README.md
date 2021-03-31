@@ -20,6 +20,9 @@ yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplu
 (You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm.)
 
 #### Copying the icons
+1) Extract all icons.
+2) Copy `Win7Build=dark-cursors` and `Cyan-Breeze-Dark-Icons` into the `~/.icons` directory.
+
 The cheater method (Assuming you cloned all the config files in the home directory):
 ```
 cp ~/bspwm-shua/Cyan-Breeze-Dark-Icons/ ~/.icons/Cyan-Breeze-Dark-Icons/
@@ -50,7 +53,7 @@ cp ~/bspwm-shua/polybar-config ~/.config/polybar/config
 
 # Finishing commands
 
-1) Match the terminal and text CLI text editor color scheme with  wallpaper using wal:
+1) Match the terminal and text CLI text editor color scheme with wallpaper using wal:
 ```
 wal -i path/to/your/wallpaper.png
 ```
