@@ -21,7 +21,7 @@ yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplu
 
 #### Copying the icons
 1) Extract all icons.
-2) Copy `Win7Build=dark-cursors` and `Cyan-Breeze-Dark-Icons` into the `~/.icons` directory.
+2) Copy `Win7Build=dark-cursors` and `Neonyt-Dark-Icons` into the `~/.icons` directory.
 
 The cheater method (Assuming you cloned all the config files in the home directory):
 ```
@@ -69,5 +69,5 @@ source .bashrc
 4) Done.
 
 Icons:
-1) Cyan-Breeze-Dark-Icons https://www.gnome-look.org/s/Gnome/p/1483458
+1) Neonyt-Dark-Icons https://www.gnome-look.org/s/Gnome/p/1463720
 2) Win7Build-dark-cursors https://www.gnome-look.org/p/1437431/
