@@ -25,8 +25,8 @@ yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplu
 
 The cheater method (Assuming you cloned all the config files in the home directory):
 ```
-cp ~/bspwm-shua/Neonyt-Dark-Icons/ ~/.icons/Cyan-Breeze-Dark-Icons/
-cp ~/bspwm-shua/Win7Bulid-dark-cursors/ ~/.icons/Win7Bulid-dark-cursors/
+cp ~/shua-bspwm/Neonyt-Dark-Icons/ ~/.icons/Cyan-Breeze-Dark-Icons/
+cp ~/shua-bspwm/Win7Bulid-dark-cursors/ ~/.icons/Win7Bulid-dark-cursors/
 ```
 Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. Don't forget to setup a wallpaper using `nirogen` by adding a directory to the preferences.
 
@@ -45,10 +45,10 @@ QT_QPA_PLATFORMTHEME=gtk2
 
 The cheater method (Assuming you cloned all the files in the home directory):
 ```
-cp ~/bspwm-shua/bashrc ~/.bashrc
-cp ~/bspwm-shua/bspwmrc ~/.config/bspwm/bspwmrc
-cp ~/bspwm-shua/polybar-config ~/.config/polybar/config
-cp ~/bspwm-shua/picom.conf ~/.config/picom.picom.conf
+cp ~/shua-bspwm/bashrc ~/.bashrc
+cp ~/shua-bspwm/bspwmrc ~/.config/bspwm/bspwmrc
+cp ~/shua-bspwm/polybar-config ~/.config/polybar/config
+cp ~/shua-bspwm/picom.conf ~/.config/picom.picom.conf
 ```
 
 (Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm).
