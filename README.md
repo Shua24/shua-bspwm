@@ -19,6 +19,8 @@ yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplu
 ```
 (You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm to add a keybind for `rofi` and other programs)
 
+Before you copy all the icons and config files, set the terminal font to Roboto Mono.
+
 #### Copying the icons
 1) Extract all icons.
 2) Copy `Win7Build=dark-cursors` and `Neonyt-Dark-Icons` into the `~/.icons` directory.
