@@ -40,7 +40,7 @@ QT_QPA_PLATFORMTHEME=gtk2
 
 1) Copy `bspwmrc` to `~/.config/bspwm/bspwmrc`
 2) Copy `bashrc` to `~/.bashrc`
-3) Copy `polybar-config` to `~/.config/polybar/config
+3) Copy `polybar-config` to `~/.config/polybar/config`
 4) Copy `picom.conf` to `~/.config/picom/picom.conf` (optional)
 
 The cheater method (Assuming you cloned all the files in the home directory):
