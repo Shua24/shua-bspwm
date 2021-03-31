@@ -23,12 +23,12 @@ QT_QPA_PLATFORMTHEME=gtk2
 #### Copying all the files
 
 1) Copy `bspwmrc` to `~/.config/bspwm/bspwmrc`
-2) Copy `.bashrc` to `~/.bashrc`
+2) Copy `bashrc` to `~/.bashrc`
 3) copy `polybar-config` to `~/.config/polybar/config
 
 The cheater method (Assuming you cloned all the config files in the home directory):
 ```
-cp ~/bspwm-shua/.bashrc ~/.bashrc
+cp ~/bspwm-shua/bashrc ~/.bashrc
 cp ~/bspwm-shua/bspwmrc ~/.config/bspwm/bspwmrc
 cp ~/bspwm-shua/polybar-config ~/.config/polybar/config
 ```
