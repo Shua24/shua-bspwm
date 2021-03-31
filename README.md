@@ -40,13 +40,15 @@ QT_QPA_PLATFORMTHEME=gtk2
 
 1) Copy `bspwmrc` to `~/.config/bspwm/bspwmrc`
 2) Copy `bashrc` to `~/.bashrc`
-3) copy `polybar-config` to `~/.config/polybar/config
+3) Copy `polybar-config` to `~/.config/polybar/config
+4) Copy `picom.conf` to `~/.config/picom/picom.conf` (optional)
 
-The cheater method (Assuming you cloned all the config files in the home directory):
+The cheater method (Assuming you cloned all the files in the home directory):
 ```
 cp ~/bspwm-shua/bashrc ~/.bashrc
 cp ~/bspwm-shua/bspwmrc ~/.config/bspwm/bspwmrc
 cp ~/bspwm-shua/polybar-config ~/.config/polybar/config
+cp ~/bspwm-shua/picom.conf ~/.config/picom.picom.conf
 ```
 
 (Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm).
