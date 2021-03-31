@@ -5,7 +5,7 @@ First, clone the git repository
 ```
 git clone https://github.com/Shua24/shua-bspwm.git
 ```
-# Setting up bspwm:
+# Setting up bspwm
 
 Before copying the config files, install the dependencies first.
 #### Arch-based distros:
