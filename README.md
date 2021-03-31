@@ -17,7 +17,7 @@ If you're using yay:
 ```
 yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme
 ```
-(You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm.)
+(You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm to add a keybind for `rofi` and other programs)
 
 #### Copying the icons
 1) Extract all icons.
@@ -28,7 +28,7 @@ The cheater method (Assuming you cloned all the config files in the home directo
 cp ~/bspwm-shua/Cyan-Breeze-Dark-Icons/ ~/.icons/Cyan-Breeze-Dark-Icons/
 cp ~/bspwm-shua/Win7Bulid-dark-cursors/ ~/.icons/Win7Bulid-dark-cursors/
 ```
-Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. 
+Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. Don't forget to setup a wallpaper using `nirogen` by adding a directory to the preferences.
 
 Add this to `/etc/environment`
 ```
@@ -57,6 +57,7 @@ cp ~/bspwm-shua/polybar-config ~/.config/polybar/config
 ```
 wal -i path/to/your/wallpaper.png
 ```
+Usually the folder for your wallpapers is in `/usr/share/backgrounds/` directory.
 
 2) Sourcing `.bashrc`
 ```
