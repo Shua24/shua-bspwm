@@ -1,9 +1,9 @@
 # shua-bspwm
-A list of config files in my bspwm settings
+A custom bspwm theme
 
 First, clone the git repository
 ```
-git clone https://github.com/Shua24/shua-bspwm
+git clone https://github.com/Shua24/shua-bspwm.git
 ```
 # Setting up bspwm:
 
@@ -22,7 +22,7 @@ yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplu
 The cheater method (Assuming you cloned all the config files in the home directory):
 ```
 cp ~/bspwm-shua/Cyan-Breeze-Dark-Icons/ ~/.icons/Cyan-Breeze-Dark-Icons/
-cp ~/bspwm-shua/Cyan-Breeze-Dark-Icons/ ~/.icons/Win7Bulid-dark-cursors/
+cp ~/bspwm-shua/Win7Bulid-dark-cursors/ ~/.icons/Win7Bulid-dark-cursors/
 ```
 Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. 
 
@@ -60,3 +60,7 @@ source .bashrc
 ```
 3) Restart bspwm by pressing `mod + R`
 4) Done.
+
+Icons:
+1) Cyan-Breeze-Dark-Icons https://www.gnome-look.org/s/Gnome/p/1483458
+2) Win7Build-dark-cursors https://www.gnome-look.org/p/1437431/
