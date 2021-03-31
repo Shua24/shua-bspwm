@@ -8,7 +8,8 @@ git clone https://github.com/Shua24/shua-bspwm.git
 # Setting up bspwm:
 
 Before copying the config files, install the dependencies first.
-#### Arch-based distros (using paru):
+#### Arch-based distros:
+If you use paru:
 ```
 paru -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme xterm
 ```
