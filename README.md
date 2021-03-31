@@ -25,7 +25,7 @@ yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplu
 
 The cheater method (Assuming you cloned all the config files in the home directory):
 ```
-cp ~/bspwm-shua/Cyan-Breeze-Dark-Icons/ ~/.icons/Cyan-Breeze-Dark-Icons/
+cp ~/bspwm-shua/Neonyt-Dark-Icons/ ~/.icons/Cyan-Breeze-Dark-Icons/
 cp ~/bspwm-shua/Win7Bulid-dark-cursors/ ~/.icons/Win7Bulid-dark-cursors/
 ```
 Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. Don't forget to setup a wallpaper using `nirogen` by adding a directory to the preferences.
