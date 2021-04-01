@@ -44,15 +44,13 @@ QT_QPA_PLATFORMTHEME=gtk2
 2) Copy `bashrc` to `~/.bashrc`
 3) Copy `polybar-config` to `~/.config/polybar/config`
 4) Copy `polybarlaunch.sh` as a startup logic to `~/.config/polybar/polybarlauch.sh`
-5) Copy `picom.conf` to `~/.config/picom/picom.conf` (optional)
+5) Copy `awesome.rasi` to `~/.config/rofi/awesome.rasi`
+6) copy `config.rasi` to `~/.config/rofi/config.rasi`
+7) Copy `picom.conf` to `~/.config/picom/picom.conf` (optional)
 
 The cheater method (Assuming you cloned all the files in the home directory):
 ```
-cp ~/shua-bspwm/bashrc ~/.bashrc
-cp ~/shua-bspwm/bspwmrc ~/.config/bspwm/bspwmrc
-cp ~/shua-bspwm/polybar-config ~/.config/polybar/config
-cp ~/shua-bspwm/polybarlauch.sh ~/.config/polybar/polybarlauch.sh
-cp ~/shua-bspwm/picom.conf ~/.config/picom.picom.conf
+cp ~/shua-bspwm/bashrc ~/.bashrc && cp ~/shua-bspwm/bspwmrc ~/.config/bspwm/bspwmrc && cp ~/shua-bspwm/polybar-config ~/.config/polybar/config && cp ~/shua-bspwm/polybarlauch.sh ~/.config/polybar/polybarlauch.sh && cp ~/shua-bspwm/picom.conf ~/.config/picom.picom.conf
 ```
 
 (Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm).
