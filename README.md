@@ -17,7 +17,12 @@ If you're using yay:
 ```
 yay -S bspwm rofi polybar lxsession picom nitrogen gnome-screenshot pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme betterlockscreen sakura -y
 ```
-(You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm to add a keybind for `rofi` and other programs)
+(You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm to add a keybind for `rofi` and other programs).
+
+After that, set a defaiult wallpaper with nitrogen by addin on't forget to set a default lockscreen after switching to bspwm.
+```
+betterlockscreen -u path/to/lockscreen/wallpaper.jpg
+```
 
 Before you copy all the icons and config files, set the terminal font to Roboto Mono.
 
@@ -30,7 +35,10 @@ The cheater method (Assuming you cloned all the config files in the home directo
 cp ~/shua-bspwm/Neonyt-Dark-Icons/ ~/.icons/Cyan-Breeze-Dark-Icons/
 cp ~/shua-bspwm/Win7Bulid-dark-cursors/ ~/.icons/Win7Bulid-dark-cursors/
 ```
-Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. Don't forget to setup a wallpaper using `nirogen` by adding a directory to the preferences.
+Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. Don't forget to setup a wallpaper using `nitrogen` by adding a directory to the preferences. After that, set a default lockscreen for your bspwm setup.
+```
+betterlockscreen -u path/to/lockscreen/wallpaper.jpg
+```
 
 Add this to `/etc/environment`
 ```
