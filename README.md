@@ -72,6 +72,8 @@ source .bashrc
 3) Restart bspwm by pressing `super + alt + R` (assuming you haven't edited `sxhkdrc` yet).
 4) Done.
 
+Note that this is only the basic setup for my bspwm config. If you want to turn my setup into a desktop environment, see the full branch of this repository.
+
 Icons:
 1) Neonyt-Dark-Icons https://www.gnome-look.org/s/Gnome/p/1463720
 2) Win7Build-dark-cursors https://www.gnome-look.org/p/1437431/
