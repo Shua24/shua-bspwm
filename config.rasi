@@ -1,0 +1,7 @@
+/** Basic config file **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "Cyan-Breeze-Dark-Icons";
+}
+@import "/home/shua/.config/rofi/awesome.rasi"
