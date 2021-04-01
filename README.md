@@ -58,7 +58,7 @@ Note: the `source .bashrc` command is not yet executed unless you're done settin
 
 # Finishing commands
 
-1) Match the terminal and text CLI text editor color scheme with wallpaper using wal:
+1) Match the terminal and CLI text editor color scheme with wallpaper using wal:
 ```
 wal -i path/to/your/wallpaper.png
 ```
