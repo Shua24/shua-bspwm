@@ -11,11 +11,11 @@ Before copying the config files, install the dependencies first.
 #### Arch-based distros:
 If you use paru:
 ```
-paru -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme xterm
+paru -S bspwm rofi polybar lxsession picom nitrogen gnome-screenshot pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme sakura
 ```
 If you're using yay:
 ```
-yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme
+yay -S bspwm rofi polybar lxsession picom nitrogen gnome-screenshot pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme sakura
 ```
 (You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm to add a keybind for `rofi` and other programs)
 
@@ -47,10 +47,11 @@ QT_QPA_PLATFORMTHEME=gtk2
 5) Copy `awesome.rasi` to `~/.config/rofi/awesome.rasi`
 6) copy `config.rasi` to `~/.config/rofi/config.rasi`
 7) Copy `picom.conf` to `~/.config/picom/picom.conf` (optional)
+8) If you want my edited `sxhkdrc` config, copy `sxhkdrc` to`~/.config/sxhkd/sxhkdrc`
 
 The cheater method (Assuming you cloned all the files in the home directory):
 ```
-cp ~/shua-bspwm/bashrc ~/.bashrc && cp ~/shua-bspwm/bspwmrc ~/.config/bspwm/bspwmrc && cp ~/shua-bspwm/polybar-config ~/.config/polybar/config && cp ~/shua-bspwm/polybarlauch.sh ~/.config/polybar/polybarlauch.sh && cp ~/shua-bspwm/awesome.rasi ~/.config/rofi/awesome.rasi && cp ~/shua-bspwm/config.rasi ~/.config/picom/config.rasi && cp ~/shua-bspwm/picom.conf ~/.config/picom.picom.conf
+cp ~/shua-bspwm/bashrc ~/.bashrc && cp ~/shua-bspwm/bspwmrc ~/.config/bspwm/bspwmrc && cp ~/shua-bspwm/polybar-config ~/.config/polybar/config && cp ~/shua-bspwm/polybarlauch.sh ~/.config/polybar/polybarlauch.sh && cp ~/shua-bspwm/awesome.rasi ~/.config/rofi/awesome.rasi && cp ~/shua-bspwm/config.rasi ~/.config/picom/config.rasi && cp ~/shua-bspwm/picom.conf ~/.config/picom.picom.conf && cp ~/bspwm-shua/sxhkdrc ~/.config/sxhkd/sxhkdrc
 ```
 
 Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm.
