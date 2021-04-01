@@ -1,7 +1,7 @@
 # shua-bspwm
-A custom bspwm theme for beginners
+A custom bspwm theme for beginners.
 
-First, clone the git repository
+First, clone the git repository.
 ```
 git clone https://github.com/Shua24/shua-bspwm.git
 ```
