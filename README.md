@@ -55,7 +55,7 @@ cp ~/shua-bspwm/polybarlauch.sh ~/.config/polybar/polybarlauch.sh
 cp ~/shua-bspwm/picom.conf ~/.config/picom.picom.conf
 ```
 
-(Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm).
+Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm because neofetch can slightly slow down your PC.
 
 # Finishing commands
 
