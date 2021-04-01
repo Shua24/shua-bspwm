@@ -23,14 +23,14 @@ Before you copy all the icons and config files, set the terminal font to Roboto 
 
 #### Copying the icons
 1) Extract all icons.
-2) Copy `Win7Build=dark-cursors` and `Neonyt-Dark-Icons` into the `~/.icons` directory.
+2) Copy `Win7Build-dark-cursors` and `Neonyt-Dark-Icons` into the `~/.icons` directory.
 
 The cheater method (Assuming you cloned all the config files in the home directory):
 ```
 cp ~/shua-bspwm/Neonyt-Dark-Icons/ ~/.icons/Cyan-Breeze-Dark-Icons/
 cp ~/shua-bspwm/Win7Bulid-dark-cursors/ ~/.icons/Win7Bulid-dark-cursors/
 ```
-Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. Don't forget to setup a wallpaper using `nirogen` by adding a directory to the preferences.
+Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. Don't forget to setup a wallpaper using `nitrogen` by adding a directory to the preferences.
 
 Add this to `/etc/environment`
 ```
