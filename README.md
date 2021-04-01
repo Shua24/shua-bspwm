@@ -3,7 +3,7 @@ A custom bspwm theme for beginners.
 
 First, clone the git repository.
 ```
-git clone https://github.com/Shua24/shua-bspwm.git
+git clone --branch full https://github.com/Shua24/shua-bspwm.git
 ```
 # Setting up bspwm
 
