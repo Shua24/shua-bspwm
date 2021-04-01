@@ -11,11 +11,11 @@ Before copying the config files, install the dependencies first.
 #### Arch-based distros:
 If you use paru:
 ```
-paru -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance materia-gtk-theme
+paru -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance materia-gtk-theme -y
 ```
 If you're using yay:
 ```
-yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme
+yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme -y
 ```
 (You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm to add a keybind for `rofi` and other programs)
 
