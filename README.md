@@ -28,7 +28,7 @@ Before you copy all the icons and config files, set the terminal font to Roboto 
 
 #### Copying the icons
 1) Extract all icons.
-2) Copy `Win7Build=dark-cursors` and `Neonyt-Dark-Icons` into the `~/.icons` directory.
+2) Copy `Win7Build-dark-cursors` and `Neonyt-Dark-Icons` into the `~/.icons` directory.
 
 The cheater method (Assuming you cloned all the config files in the home directory):
 ```
