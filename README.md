@@ -50,10 +50,10 @@ QT_QPA_PLATFORMTHEME=gtk2
 
 The cheater method (Assuming you cloned all the files in the home directory):
 ```
-cp ~/shua-bspwm/bashrc ~/.bashrc && cp ~/shua-bspwm/bspwmrc ~/.config/bspwm/bspwmrc && cp ~/shua-bspwm/polybar-config ~/.config/polybar/config && cp ~/shua-bspwm/polybarlauch.sh ~/.config/polybar/polybarlauch.sh && cp ~/shua-bspwm/picom.conf ~/.config/picom.picom.conf
+cp ~/shua-bspwm/bashrc ~/.bashrc && cp ~/shua-bspwm/bspwmrc ~/.config/bspwm/bspwmrc && cp ~/shua-bspwm/polybar-config ~/.config/polybar/config && cp ~/shua-bspwm/polybarlauch.sh ~/.config/polybar/polybarlauch.sh && cp ~/shua-bspwm/awesome.rasi ~/.config/rofi/awesome.rasi && cp ~/shua-bspwm/config.rasi ~/.config/picom/config.rasi && cp ~/shua-bspwm/picom.conf ~/.config/picom.picom.conf
 ```
 
-(Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm).
+Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm.
 
 # Finishing commands
 
@@ -61,13 +61,13 @@ cp ~/shua-bspwm/bashrc ~/.bashrc && cp ~/shua-bspwm/bspwmrc ~/.config/bspwm/bspw
 ```
 wal -i path/to/your/wallpaper.png
 ```
-Usually the folder for your wallpapers is in `/usr/share/backgrounds/` directory.
+Usually the folder for your wallpapers are in `/usr/share/backgrounds/` directory.
 
 2) Sourcing `.bashrc`
 ```
 source .bashrc
 ```
-3) Restart bspwm by pressing `super + alt + R` (assuming you haven't edited `sxhkdrc` yet).
+3) Restart bspwm by pressing `super + alt + R` (assuming you haven't edited `sxhkdrc` yet before switching to bspwm).
 4) Done.
 
 Icons:
