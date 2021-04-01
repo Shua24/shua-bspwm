@@ -20,7 +20,7 @@ bspc rule -a Celluloid state=floating
 bspc rule -a MyNotes state=floating
 
 sxhkd &
-polybar shua &
+~/.config/polybar/polybarlauch.sh
 picom &
 nitrogen --restore &
 lxsession &
