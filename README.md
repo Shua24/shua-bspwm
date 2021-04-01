@@ -11,7 +11,7 @@ Before copying the config files, install the dependencies first.
 #### Arch-based distros:
 If you use paru:
 ```
-paru -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme xterm
+paru -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance materia-gtk-theme
 ```
 If you're using yay:
 ```
