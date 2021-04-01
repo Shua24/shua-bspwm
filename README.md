@@ -19,10 +19,6 @@ yay -S bspwm rofi polybar lxsession picom nitrogen gnome-screenshot pywal ttf-ro
 ```
 (You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm to add a keybind for `rofi` and other programs).
 
-After that, set a defaiult wallpaper with nitrogen by addin on't forget to set a default lockscreen after switching to bspwm.
-```
-betterlockscreen -u path/to/lockscreen/wallpaper.jpg
-```
 
 Before you copy all the icons and config files, set the terminal font to Roboto Mono.
 
@@ -82,3 +78,16 @@ source .bashrc
 Icons:
 1) Neonyt-Dark-Icons https://www.gnome-look.org/s/Gnome/p/1463720
 2) Win7Build-dark-cursors https://www.gnome-look.org/p/1437431/
+
+#### Program list
+
+1) Picom, as a compositing manager.
+2) Nitrogen, a wallpaper manager.
+3) GNOME Screenshot, a GNOME screenshot utility.
+4) Pywal, a color scheme generator.
+5) LXSession, a polkit from the LXDE Desktop Environment.
+6) Roboto, a mono-style font.
+7) LXAppearance, a theme customizer from the LXDE Desktop Environment.
+8) GNOME Materia Theme, a pack of GNOME Materia themes to customize your desktop theme.
+9) Betterlockscreen, a simple lockscreen to setup.
+10) Sakura, a customizable terminal emulator.
