@@ -1,5 +1,5 @@
 # shua-bspwm
-A custom bspwm theme
+A custom bspwm theme for beginners
 
 First, clone the git repository
 ```
