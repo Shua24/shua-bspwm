@@ -62,7 +62,7 @@ The cheater method (Assuming you cloned all the files in the home directory):
 cp ~/shua-bspwm/bashrc ~/.bashrc && cp ~/shua-bspwm/bspwmrc ~/.config/bspwm/bspwmrc && cp ~/shua-bspwm/polybar-config ~/.config/polybar/config && cp ~/shua-bspwm/polybarlauch.sh ~/.config/polybar/polybarlauch.sh && cp ~/shua-bspwm/awesome.rasi ~/.config/rofi/awesome.rasi && cp ~/shua-bspwm/config.rasi ~/.config/picom/config.rasi && cp ~/shua-bspwm/picom.conf ~/.config/picom.picom.conf && cp ~/bspwm-shua/sxhkdrc ~/.config/sxhkd/sxhkdrc
 ```
 
-Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm.
+Note: the `source .bashrc` command is not yet executed unless you're done setting up bspwm because neofetch can slightly slow down your PC.
 
 # Finishing commands
 
