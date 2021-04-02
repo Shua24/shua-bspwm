@@ -15,7 +15,7 @@ paru -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-stylepl
 ```
 If you're using yay:
 ```
-yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance gnome-materia-theme -y
+yay -S bspwm rofi polybar lxsession picom nitrogen pywal ttf-roboto qt5-styleplugins lxappearance materia-gtk-theme -y
 ```
 (You can also edit the bspwm keybinds in `~/.config/sxhkd/sxhkdrc` before switching to bspwm to add a keybind for `rofi` and other programs)
 
