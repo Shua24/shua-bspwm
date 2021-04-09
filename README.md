@@ -32,12 +32,6 @@ cp ~/shua-bspwm/Win7Bulid-dark-cursors/ ~/.icons/Win7Bulid-dark-cursors/
 ```
 Before you copy the config files, setup the dark theme and icons by opening `lxappearance`. Don't forget to setup a wallpaper using `nitrogen` by adding a directory to the preferences.
 
-Add this to `/etc/environment`
-```
-XDG_CURRENT_DESKTOP=Unity
-QT_QPA_PLATFORMTHEME=gtk2
-```
-
 #### Copying all the config files
 
 1) Copy `bspwmrc` to `~/.config/bspwm/bspwmrc`
