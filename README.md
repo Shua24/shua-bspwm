@@ -45,10 +45,10 @@ QT_QPA_PLATFORMTHEME=gtk2
 3) Copy `polybar-config` to `~/.config/polybar/config`
 4) Copy `polybarlaunch.sh` as a startup logic to `~/.config/polybar/polybarlauch.sh`
 5) Set a permission to execute the script
-       ```
-       chmod +x ~/.config/polybar/polybarlaunch.sh
-       ```
-7) Copy `picom.conf` to `~/.config/picom/picom.conf` (optional)
+```
+chmod +x ~/.config/polybar/polybarlaunch.sh
+```
+6) Copy `picom.conf` to `~/.config/picom/picom.conf` (optional)
 
 The cheater method (Assuming you cloned all the files in the home directory):
 ```
