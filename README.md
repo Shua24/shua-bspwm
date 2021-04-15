@@ -75,3 +75,5 @@ Note that this is only the basic setup for my bspwm config. If you want to turn 
 Icons:
 1) Neonyt-Dark-Icons https://www.gnome-look.org/s/Gnome/p/1463720
 2) Win7Build-dark-cursors https://www.gnome-look.org/p/1437431/
+
+Note that the font I'm using is Flexi IBM VGA False, you can setup the fonts yourself by editing the polybar config file.
