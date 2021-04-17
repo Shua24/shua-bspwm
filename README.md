@@ -67,6 +67,8 @@ Usually the folder for your wallpapers is in `/usr/share/backgrounds/` directory
 ```
 source .bashrc
 ```
+If you have multiple desktop environments, you can add the `-n` flag to the `wal` command in `.bashrc`.
+
 3) Restart bspwm by pressing `super + alt + R` (assuming you haven't edited `sxhkdrc` yet).
 4) Done.
 
